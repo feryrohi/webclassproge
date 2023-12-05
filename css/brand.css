@@ -1,0 +1,74 @@
+.brand {
+  width: 100%;
+  height: 500px;
+  background-color: lightgray;
+  margin: 50px;
+}
+.brand .center {
+  width: 1300px;
+  height: 120px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 30px;
+}
+.brand .center p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 60px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+swiper.slide {
+  flex-flow: column wrap;
+}
+.swiper-slide .image {
+  width: 100%;
+}
+.swiper-slide .rns {
+  width: 100%;
+  height: 20px;
+  text-align: left;
+  padding-left: 20px;
+  background-color: red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  direction: ltr;
+}
+.swiper-slide .rns span {
+  text-decoration: line-through;
+  font-size: 14px;
+  font-family: yekan;
+}
+.brand .center .text {
+  width: 250px;
+  height: 60px;
+  border-radius: 40px;
+  border: 2px solid rgb(139, 215, 139);
+  text-align: center;
+  line-height: 20px;
+  margin: 50px auto;
+  color: rgb(101, 193, 162);
+  font-size: 20px;
+  padding: 10px;
+}

@@ -1,0 +1,242 @@
+header {
+  width: 100%;
+  height: 300px;
+}
+header .top-h {
+  width: inherit;
+  height: 80px;
+}
+header .top-h img {
+  object-fit: cover;
+}
+header .bot-h {
+  width: inherit;
+  height: 120px;
+}
+header .bot-h .tbot-h {
+  width: inherit;
+  height: 90px;
+}
+header .bot-h .tbot-h .center {
+  width: 1200px;
+  height: inherit;
+  margin: 0 auto;
+}
+header .bot-h .tbot-h .center .login {
+  width: 200px;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
+header .bot-h .tbot-h .center .login .bas {
+  display: inline-block;
+  margin-top: 27px;
+  vertical-align: middle;
+}
+header .bot-h .tbot-h .center .login .bas i {
+  font-size: 30px;
+}
+header .bot-h .tbot-h .center .login .reg {
+  display: inline-block;
+  width: 130px;
+  height: 30px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgb(36, 235, 119);
+  font-family: yekan;
+  font-size: 13px;
+  color: rgb(243, 247, 244);
+  margin-top: 27px;
+  vertical-align: middle;
+  margin-right: 20px;
+  border-radius: 40%;
+  box-shadow: 4px 4px 10px green;
+  padding-top: 15px;
+}
+header .bot-h .tbot-h .center .login .bas:hover i {
+  color: #00bf6f;
+}
+header .bot-h .tbot-h .center .login .reg:hover {
+  background-color: #408568;
+}
+header .bot-h .tbot-h .center .search {
+  width: 750px;
+  height: inherit;
+  display: inline-block;
+}
+header .bot-h .tbot-h .center .search input[type="search"] {
+  width: 700px;
+  height: 50px;
+  margin: 50px auto;
+  padding-right: 30px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 30px;
+  outline: unset;
+  border: unset;
+  background-color: #f5f5f5;
+}
+header .bot-h .tbot-h .center .search input[type="search"]::placeholder {
+  font-size: yekan;
+  font-weight: bold;
+}
+header .bot-h .tbot-h .center .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  margin-top: 30px;
+}
+@font-face {
+  font-family: yekan;
+  src: url("../font/IRANYekanWebFn.ttf");
+}
+header .bbot-h {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+header .bbot-h nav {
+  width: 1500px;
+  height: inherit;
+  display: inline-block;
+  margin-right: 50px;
+}
+header .bbot-h nav ul {
+  width: inherit;
+  height: inherit;
+  list-style: none;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+header .bbot-h nav ul li {
+  width: 100px;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+}
+header .bbot-h nav ul li a {
+  display: block;
+  width: 100px;
+  height: inherit;
+  margin-left: 50px;
+  padding: 30px 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 40px;
+  color: #201e1e;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: yekan;
+  transition: 300ms;
+}
+header .bbot-h nav ul li a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+header .bbot-h nav ul li .submenu {
+  width: 70vw;
+  height: 80vh;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  right: 0px;
+  direction: ltr;
+  overflow: auto;
+  display: none;
+}
+header .bbot-h nav ul li:hover .submenu {
+  display: block;
+  box-shadow: 2px 2px 10px #201e1e;
+}
+
+header .bbot-h nav ul li .submenu div {
+  width: 13%;
+  position: absolute;
+  right: 0%;
+  margin-right: 15px;
+  text-align: center;
+}
+header .bbot-h nav ul li .submenu div div {
+  width: 100%;
+  height: 45%;
+  border-bottom: 1px;
+  position: unset;
+}
+header .bbot-h nav ul li .submenu div div a {
+  display: block;
+  width: 100%;
+  height: inherit;
+  text-align: center;
+  padding: 0 !important;
+  color: rgb(77, 78, 80);
+  transition: 200ms;
+}
+
+header .bbot-h nav ul li .submenu div div .subsubmenu {
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  right: 100%;
+  top: 0px;
+  display: none;
+}
+header .bbot-h nav ul li .submenu div div a:hover {
+  background-color: rgb(251, 252, 253);
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(26, 30, 30);
+}
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: rgb(244, 247, 247);
+}
+
+header .bbot-h nav ul li .submenu div div:hover .subsubmenu {
+  display: block;
+}
+header .bbot-h nav ul li .submenu div div:hover .subsubmenu a {
+  display: block;
+}
+
+header .bbot-h nav ul li .submenu div div .subsubmenu h4 {
+  line-height: 14px;
+  text-align: right;
+  margin: 20px;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu:hover h4 {
+  color: #00bf6f;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu ul {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 90%;
+  top: 10%;
+}
+
+header .bbot-h nav ul li .submenu div div .subsubmenu ul li {
+  line-height: 14px;
+  font-size: 12px;
+  margin: 20%;
+  font-weight: lighter;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu ul:hover li {
+  color: #00bf6f;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu .second {
+  left: 70%;
+  top: 10%;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu .second-2 {
+  left: 40%;
+  top: 10%;
+}
+header .bbot-h nav ul li .submenu div div .subsubmenu .second-1 {
+  left: 10%;
+  top: 10%;
+}

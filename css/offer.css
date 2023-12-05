@@ -1,0 +1,36 @@
+.offer {
+  width: 100%;
+  height: 280px;
+}
+.offer .center {
+  width: 1400px;
+  height: inherit;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0 auto;
+}
+.offer .center a {
+  text-decoration: none;
+}
+.offer .center a div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  transition: 3000ms;
+}
+.offer .center a div img {
+  width: 80%;
+  margin: 10%;
+  transition: 2000ms;
+  border-radius: 20%;
+  transform: scale(2, 2, 2, 2);
+}
+.offer .center a div:hover {
+  border-radius: 30%;
+  background-color: grey;
+  box-shadow: 5px 5px 25px #201919;
+  filter: brightness(1.3);
+}
